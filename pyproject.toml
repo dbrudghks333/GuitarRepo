@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "guitar-flask1"
+version = "0.0.1"
+description = ""
+authors = ["Kyunghwan Yu(@dbrudghks333)"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.9"
+Flask = "^2.2.2"
+pytube = "^12.1.0"
+music21 = "^7.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+pylint = "^2.5.3"
+black = "^19.10b0"
+numpydoc = "^1.1.0"
+yapf = "^0.30.0"
+sphinx-press-theme = "^0.5.1"
+pytest-cov = "^2.10.1"
+pytest-mock = "^3.3.1"
+sphinx-click = "^2.5.0"
+sphinxcontrib-bibtex = "^1.0.0"
